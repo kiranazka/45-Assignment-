@@ -1,2 +1,5 @@
-var guestlist = ["Azka", "Ahmad", "Kamran", "Sumara"];
-guestlist.forEach(function (oneguest) { return console.log("Salam ".concat(oneguest, ", 'would you like to invite to dinner with me?'")); });
+var guestlist = ["Ayesha", "Zarwa", "Zumra", "Hafsa", "Azka"];
+var dontCome = guestlist[0];
+console.log(dontCome, "I cannot come to the Invitation");
+guestlist.splice(0, 0, "Ahmad");
+guestlist.forEach(function (guest) { return console.log("salam ".concat(guest, ",would You Like to Dinner with me")); });
