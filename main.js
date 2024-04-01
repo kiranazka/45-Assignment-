@@ -1,3 +1,2 @@
-var favNumber = 15;
-var massage = "my favNumber is:";
-console.log(massage, favNumber);
+var friendsName = ["Azka", "Ahmeed", "Kamran", "Ayesha", "Burhan"];
+friendsName.forEach(function (friendsName) { return console.log(friendsName); });

@@ -1,3 +1,2 @@
-let favNumber = 15;
-let massage = "my favNumber is:";
-console.log(massage,favNumber);
+let friendsName = ["Azka","Ahmeed","Kamran","Ayesha","Burhan"];
+friendsName.forEach(friendsName =>console.log(friendsName));
