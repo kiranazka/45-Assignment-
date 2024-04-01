@@ -1,28 +1,18 @@
-//Creating guestlist Array
-let guestlist = ["Kinza","Azka","Nida","Iqra","Afnan"];
-// Making variable for those guest who cant come
-let dontCome = guestlist[1];
-//print  the name of guest dont come
-console.log(dontCome,"Nai a Sakty hai");
- // Add or Remove from Guest List Array
-guestlist.splice(1,2, "Burhan");
-// print Massge  
-console.log("Good News ! We have found a Bigger Table For Dinner");
-// Adding the new guest at starting index Array
-guestlist.unshift("Ali");
-// Adding a new guest at ending index Array
-guestlist.push("Zain");
-// Adding one new guest at middal index of Array
-let middalIndex:number =Math.floor (guestlist.length/2);
-// Adding a new guest to middleindex of Array
-guestlist.splice(middalIndex,0,"Osama");
-console.log("update list of our Guest");
-guestlist.forEach(oneguest => console.log(`Salam ${oneguest},Would you like dinner with me`));
-console.log("unfortunately , the new dinner table wont Arrive on time,so I can only invite two guest to dinner");
-while(guestlist.length>2){
-
-let Removeguest = guestlist.pop();
-console.log(`Sorry,${Removeguest} i cant invite you to dinner`);
-}
-
-
+let countiesToVist: string[] = ["China","Pakistan","America","Bahrain","Sweden"];
+console.log("Orginal order:",countiesToVist);
+// print the array in Alphabetical order without modifying the Actual Array list
+console.log("Alphabetical order :",[...countiesToVist].sort());
+// print the array  still in Orginal order   modifying the Actual Array list
+console.log("still in Orginal order:",countiesToVist);
+// print the array Reverse order   modifying the Actual Array  reverse list
+console.log("Reverse order:",[...countiesToVist].reverse());
+// print the array  still in Orginal order   modifying the Actual Array list
+console.log("still in Orginal order:",countiesToVist);
+// print the array   Orginal Array reversed order   modifying the Actual  reverse Array list
+console.log ("orginal Array reversed:",countiesToVist.reverse());
+// print the array  back to Orginal order   modifying the Actual Array reverse list
+console.log("back to Orginal order:",countiesToVist.reverse());
+// print the sorted in Alphabetical order   modifying the Actual sort 
+console.log("sorted in Alphabetical order:",countiesToVist.sort());
+// print the array  Orginal  reversed again  modifying the Actual Array  revrse list
+console.log ("orginal Array reversed again:",countiesToVist.reverse());
