@@ -1,2 +1,3 @@
-let friendsName = ["Azka","Ahmeed","Kamran","Ayesha","Burhan"];
-friendsName.forEach(friendsName =>console.log(friendsName));
+let transportationModal = ["Car","Bus","Van","Airplane","cycle"];
+transportationModal.forEach(mode => console.log(`I would like to own a Honda motorcycle ${mode}`));
+
