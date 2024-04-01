@@ -18,3 +18,8 @@ var middalIndex = Math.floor(guestlist.length / 2);
 guestlist.splice(middalIndex, 0, "Osama");
 console.log("update list of our Guest");
 guestlist.forEach(function (oneguest) { return console.log("Salam ".concat(oneguest, ",Would you like dinner with me")); });
+console.log("unfortunately , the new dinner table wont Arrive on time,so I can only invite two guest to dinner");
+while (guestlist.length > 2) {
+    var Removeguest = guestlist.pop();
+    console.log("Sorry,".concat(Removeguest, " i cant invite you to dinner"));
+}

@@ -18,3 +18,11 @@ let middalIndex:number =Math.floor (guestlist.length/2);
 guestlist.splice(middalIndex,0,"Osama");
 console.log("update list of our Guest");
 guestlist.forEach(oneguest => console.log(`Salam ${oneguest},Would you like dinner with me`));
+console.log("unfortunately , the new dinner table wont Arrive on time,so I can only invite two guest to dinner");
+while(guestlist.length>2){
+
+let Removeguest = guestlist.pop();
+console.log(`Sorry,${Removeguest} i cant invite you to dinner`);
+}
+
+
