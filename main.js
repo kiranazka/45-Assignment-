@@ -1,4 +1,8 @@
-var whitespaceName = "\n\t Azka kiran \t\n";
-console.log(whitespaceName);
-var withoutwhitespaceName = whitespaceName.trim();
-console.log(withoutwhitespaceName);
+// Addition
+console.log(4 + 4);
+// Subtraction
+console.log(10 - 2);
+// Multiplication
+console.log(4 * 2);
+// Division
+console.log(16 / 2);
