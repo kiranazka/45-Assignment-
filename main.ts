@@ -1,8 +1,2 @@
- let favoritecolor= ("blue");
- console.log(favoritecolor)
- favoritecolor = "green";
- console.log(favoritecolor);
- favoritecolor = "black"
- console.log(favoritecolor);
- favoritecolor = "white"
- console.log(favoritecolor);
+let personName = "Azka kiran";
+console.log("Helo",personName,"would you like to learn some Python today?");
