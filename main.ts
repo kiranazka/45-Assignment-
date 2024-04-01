@@ -1,3 +1,4 @@
-let favNumber = 15;
-let massage = "my favNumber is:";
-console.log(massage,favNumber);
+console.log(4+4);
+console.log(10-2);
+console.log(4*2);
+console.log(16/2);
