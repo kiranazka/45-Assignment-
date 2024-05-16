@@ -1,19 +1,12 @@
-// Object  interface
-interface itCourse {
-     Name: string;
-     loction: string;
-     Duration: string;
-     onSiteStudent:number;
-     onSitefaculty:number;
-     onSiteStaff:number;
-     
-}
-let course:itCourse = {
-    Name: "TypeScript && JavaScrit",
-    loction: "GovernerSindh",
-    Duration: "12 months",
-    onSiteStudent:50000,
-    onSitefaculty:100,
-    onSiteStaff:100,
-}
-console.log(course);
+//Create Array
+let errorArray : string[] = ["A","B","C","D","E"];
+// Production Error ! by Accessing invalid index of Array
+console.log(errorArray[6]);
+// Create Array of object
+console.log(errorArray);
+// create 2 Array value  object
+console.log(errorArray[2]);
+// create 5 Array Object
+console.log(errorArray[4]);
+
+
