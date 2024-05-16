@@ -1,33 +1,48 @@
-// create 2 variable 
-var five = 5;
-var ten = 10;
-// Test 1
-console.log("\n Test 1: Five is the equal to 5?\n");
-console.log(five === 5);
-// Test 2
-console.log("\n Test 2: ten is the equal to 10?\n");
-console.log(ten == 10);
-// Test 3
-console.log("\n Test 3: five is the not equal to 10?\n");
-console.log(five != 10);
-// Test :4
-console.log("\n Test 4: 10 is greater then 5?\n");
-console.log(ten > 5);
-// Test 5
-console.log("\n Test 5: 5 is smaller then 10?\n");
-console.log(five < 10);
-// Test 6
-console.log("\n Test 6: 10 is smaller then 5?\n");
-console.log(ten < 5);
-// Test 7
-console.log("\n Test 7: 5 is greater then 10?\n");
-console.log(five > 10);
-// Test 8
-console.log("\n Test 8: ten is not equal to 10?\n");
-console.log(ten != 10);
-// Test 9
-console.log("\n Test 9: ten is less then to 10?\n");
-console.log(ten < 10);
-// Test 10
-console.log("\n Test 10: ten is greater then to 10?\n");
-console.log(ten > 10);
+// import chalk from "chalk"
+var Apple = "apple";
+// test for equality and inequality with strings
+console.log(" \nIs apple is equal to Apple?\n");
+console.log(Apple == "apple");
+console.log("\nIs apple is not equal to Apple?\n");
+console.log(Apple != "apple");
+// Test using the Lower case Function True && Fasle
+var upperCaseApple = "APPLE";
+console.log("\n Is apple is equal to lowerCase Apple?\n");
+console.log(upperCaseApple.toLowerCase() == Apple);
+console.log("\n Is apple is not equal to lowerCase Apple?\n");
+console.log(upperCaseApple.toLowerCase() != Apple);
+// Test  Numerical Number
+var num1 = 5;
+var num2 = 78;
+// num1 is num2 is equal 
+console.log("\n Is num is equal to num2?\n");
+console.log(num1 == num2);
+// num1 is num2 is not equal 
+console.log("\n Is num is not equal to num2?\n");
+console.log(num1 != num2);
+// num1 is num2 is greater then
+console.log("\n Is num is greater then to num2?\n");
+console.log(num1 > num2);
+// using && or || operator
+console.log("\n Is five is not equal To seventyeight  and five is greater then to seventyeight?\n");
+console.log(num1 != num2 && 5 > 78);
+console.log("\n Is five is  not equal To seventyeight  and five is less then to seventyeight?\n");
+console.log(num1 != num2 && 5 < 78);
+// num1 is num2 is greater then && equal to
+console.log("\n Is num is greater then to equal to num2?\n");
+console.log(num1 >= num2);
+// num1 is num2 is less then && equal to
+console.log("\n Is num is less then to equal to num2?\n");
+console.log(num1 <= num2);
+// Using || (OR)
+console.log("\n 20 is greater then 50 OR 20 is equal to 20");
+console.log(20 > 50 || 20 == 20);
+console.log("\n 20 is greater then 50 OR 20 is not equal to 20");
+console.log(20 > 50 || 20 != 20);
+// create Array
+var fruit = ["apple", "banana", "orange", "peach"];
+// Test wether inculed item in Array
+console.log("\n Is orange include in my Array?\n");
+console.log(fruit.includes("orange"));
+console.log("\n Is PineApple include in my Array?\n");
+console.log(fruit.includes("PineApple"));
