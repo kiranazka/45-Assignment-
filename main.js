@@ -1,20 +1,24 @@
-// create variable
-var age = 26;
-if (age < 2) {
-    console.log("\nyou are  a Baby\n");
+"use strict";
+// creating Array
+let fruits = ["Banana", "Mango", "Orange", "Peach", "Apple"];
+if (fruits.includes("Mango")) {
+    console.log("Mango is My favourite fruit");
 }
-else if (age < 4 && age >= 2) {
-    console.log("\nyou are a Toddler\n");
+if (fruits.includes("Banana")) {
+    console.log("I like Banana");
 }
-else if (age >= 4 && age < 13) {
-    console.log("\nyou are a kid\n");
+if (fruits.includes("Orange")) {
+    console.log("Orange is My favourite fruit && So delicious");
 }
-else if (age >= 13 && age < 20) {
-    console.log("\n you are a Teenager\n");
+if (fruits.includes("Peach")) {
+    console.log("Peach is My favourite fruit");
 }
-else if (age >= 20 && age < 65) {
-    console.log("\nyou are an Adult\n");
+if (fruits.includes("Apple")) {
+    console.log("Apple is My favourite && healthy fruit");
 }
-else {
-    console.log("\nyou are an Elder\n");
+if (fruits.includes("Kiwi")) {
+    console.log("Kiwi is My favourite fruit");
+}
+if (fruits.includes("Grapes")) {
+    console.log("Grapes is My favourite fruit");
 }
