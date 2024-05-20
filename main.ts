@@ -1,17 +1,16 @@
-// Define  variable
+// Define Variable
 let alienColor = "Green";
-//condition statement
-if (alienColor === "Green") {
-    console.log("\n The player just earned 5 points./n");
-}
-else{
-    console.log("\n The player just earned 10 points./n");
-}
-// second verison
-if (alienColor === "Blue"){
-    console.log("\n Alien colour is Blue.\n");
+// Defne Statement if, if Else.
+if(alienColor === "Red"){
+    console.log("\n You shot down red alien you have earned 5 points");
 
 }
-else{
-    console.log("\n I am come from Else Statement.\n");
+else if(alienColor === "Yellow"){
+    console.log("\n You shot down yellow alien you have earned 10 points");
+
 }
+else if(alienColor === "Green"){
+    console.log("\n You shot down Green alien you have earned 15 points");
+
+}
+
