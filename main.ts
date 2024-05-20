@@ -1,16 +1,20 @@
-// Define Variable
-let alienColor = "Green";
-// Defne Statement if, if Else.
-if(alienColor === "Red"){
-    console.log("\n You shot down red alien you have earned 5 points");
-
+// create variable
+let  age = 26;
+if(age < 2){
+    console.log("\nyou are  a Baby\n");
 }
-else if(alienColor === "Yellow"){
-    console.log("\n You shot down yellow alien you have earned 10 points");
-
+else if(age < 4 && age >=2){
+    console.log("\nyou are a Toddler\n");
 }
-else if(alienColor === "Green"){
-    console.log("\n You shot down Green alien you have earned 15 points");
-
+else if( age >= 4 && age < 13){
+    console.log("\nyou are a kid\n");
 }
-
+else if(age >= 13 && age < 20){
+    console.log("\n you are a Teenager\n");
+}
+else if(age >= 20 && age < 65){
+    console.log("\nyou are an Adult\n");
+}
+else{
+    console.log("\nyou are an Elder\n");
+}
