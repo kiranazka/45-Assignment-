@@ -1,19 +1,8 @@
-let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// Using for loop
-for( let oneNumber of number){
-    let ordinalEnding: string;
-
-    if (oneNumber === 1){
-        ordinalEnding = "st";
-    }
-    else if (oneNumber === 2){
-        ordinalEnding = "nd";
-    }
-    else if (oneNumber === 3){
-        ordinalEnding = "rd";
-    }
-    else{
-        ordinalEnding = "th";
-    }
-    console.log(`${oneNumber}${ordinalEnding}`);
-}
+// variable Array
+let pizza = ["Chicken Tika","Malai Cheeese","Fajita"]
+ // Using for loop
+ for(let onePizza of pizza){
+    console.log(`\n I like ${onePizza}  Pizza. \n` );
+ }
+// Print the message 
+console.log("I really love pizza!");
