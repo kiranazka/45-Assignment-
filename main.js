@@ -1,16 +1,19 @@
-// Using Currentuser Array
-var currentUser = ["Ali", "Sana", "Ahmad", "Kamran", "Zain"];
-// Create NewUser Array
-var newUser = ["Usman", "Ali", "Zain", "Hussan", "Adnan"];
-// Loop through new User check for avaiblility
-newUser.forEach(function (new_one_user) {
-    // Making a condition for Username Already exist and save Ourcondition variable
-    var ourCondition = currentUser.some(function (currentUser) { return currentUser.toLowerCase() === new_one_user.toLowerCase(); });
-    // print difffernt massge using If else statement 
-    if (ourCondition) {
-        console.log("\n Sorry ".concat(new_one_user, " is already taken!\n"));
+var number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// Using for loop
+for (var _i = 0, number_1 = number; _i < number_1.length; _i++) {
+    var oneNumber = number_1[_i];
+    var ordinalEnding = void 0;
+    if (oneNumber === 1) {
+        ordinalEnding = "st";
+    }
+    else if (oneNumber === 2) {
+        ordinalEnding = "nd";
+    }
+    else if (oneNumber === 3) {
+        ordinalEnding = "rd";
     }
     else {
-        console.log("\n Welcome ".concat(new_one_user, " Username is available!\n"));
+        ordinalEnding = "th";
     }
-});
+    console.log("".concat(oneNumber).concat(ordinalEnding));
+}
